@@ -1,0 +1,25 @@
+body{
+    font-family: Comfortaa, sans-serif;
+    background: rgb(26, 25, 25);
+}
+.carousel .carousel-item{
+    height: 500px;
+}
+.header{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.capt{
+    text-align: justify;
+    color: rgb(109, 109, 109);
+    
+}
+.sec{
+    margin-top: 2rem;
+}
+.br2{
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+
