@@ -32,3 +32,9 @@ body{
 .zg{
     color: white;
 }
+.last{
+    height: 300px;
+    color: white;
+    text-align: center;
+    background-color: rgb(51, 50, 50);
+}
