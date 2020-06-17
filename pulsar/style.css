@@ -64,6 +64,6 @@ body{
       transition: .1s 0;
     }
   }
-  .br{
+  .br{font-weight: bold;
       margin-top: 15px;
   }
