@@ -1,0 +1,11 @@
+body{
+    font-family: Comfortaa, sans-serif;
+    background: rgb(26, 25, 25);
+    color: white;
+}
+.carousel .carousel-item{
+    height: 500px;
+}
+ .sec{
+    margin-top: 2rem;
+}
