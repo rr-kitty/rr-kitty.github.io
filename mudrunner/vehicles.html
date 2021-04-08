@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <h1 class="text-center">Mudrunner Vehicles List</h1>
+    <h1 class="zagolovok text-center">Mudrunner Vehicles List</h1>
     <div class="container" id="film-app">
         <div class="search">
             <i class="fab fa-phabricator"></i>
-            <input v-model="search" type="text" placeholder="Truck's name">
+            <input v-model="search" type="text" placeholder="Введите номер модели">
         </div>
         <ul class="film-list">
             <li class="list-item" v-for="(item, index) in myFilter">
@@ -32,7 +32,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{item.name}}</h5>
                             <p class="card-text">{{item.about}}</p>
-                            <a href="#" class="btn btn-primary">Детальніше</a></a>
+                            <a href="#" class="btn btn-primary">Перейти</a></a>
                         </div>
                         <div class="about" v-if="currentIndex == index">
                             {{item.description}}

@@ -7,13 +7,13 @@
 .search>input{
     width: 90%;
     border-radius: 10px;
-    border: 2px solid #078607;
+    border: 2px solid yellow;
     outline: 0;
     padding-left: 8px;
 }
 .search>input:focus{
-    border: 2px solid #078607;
-    box-shadow: 0px 0px 5px tomato ;
+    border: 2px solid yellow;
+    box-shadow: 0px 0px 5px yellow ;
 }
 .fa-search{
     padding-right:12px;
@@ -29,7 +29,7 @@
 margin: 15px;
 list-style-type: none;
 flex-basis: 200px;
-border: 2px solid #078607;
+border: 2px solid yellow;
 }
 .poster{
     height: 198px;
@@ -41,7 +41,7 @@ border: 2px solid #078607;
     width: auto;
 }
 .active{
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px yellow;
     transform: scale(1.1);
     z-index: 5;
     position: absolute;
@@ -54,4 +54,28 @@ border: 2px solid #078607;
 }
 .rel{
     position: relative;
+}
+.container{
+    background-color: rgb(31, 29, 29);
+}
+body{
+    background-color: rgb(24, 22, 22);
+}
+.zagolovok{
+    color: whitesmoke;
+}
+.card{
+    background-color: rgb(39, 37, 37);
+}
+.card-text{
+    color:whitesmoke;
+}
+.btn{
+    background-color: whitesmoke;
+    color: black;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(39, 37, 37);
+     color:whitesmoke;
 }

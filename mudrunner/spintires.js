@@ -24,9 +24,9 @@ let films = [{
 },
 {
     name: "С-4320",
-    image: "non.jpg",
+    image: "с4320.jpg",
     about: "⭐⭐⭐",
-    description: "Old Soviet 6x4 truck. Has a diff lock option. This is a good truck to '1 star' challanges.",
+    description: "Старый советский грузовик с полным приводом (6х6) и блокировкой дифф. Имеет большие колёса, мощный двигатель и неплохой запас топлива. Подходит для бездорожья и скал.",
 },
 {
     name: "С-",
