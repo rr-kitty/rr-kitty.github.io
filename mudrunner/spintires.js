@@ -6,14 +6,32 @@ let films = [{
 },
 {
     name: "B-131",
-    image: "b131.png",
+    image: "B131.png",
     about: "⭐⭐",
-    description: "Old Soviet 6x6 truck. Has AWD and diff lock option. This is an powerfull truck that can carry 4 load points.",
+    description: "Старый советский военный грузовик. Имеет полный привод (6х6), возможность блокировки дифф. Хороший выбор для труднопроходимых мест.",
 },
 {
     name: "С-256",
     image: "c256.jpg",
     about: "⭐",
+    description: "Гражданский советский грузовик. Не имеет полного привода (6х4), но есть возможность блокировки дифф. Это отличный выбор, если вы собрались проходить карты с 1 звездой балланса. Имеет свой кран, может перевозить средние брёвна.",
+},
+{
+    name: "C-260",
+    image: "c260.jpg",
+    about: "⭐⭐⭐",
+    description: "КрАЗ-260 - отличное авто. Имеет полный привод (6х6), блокировку дифф., большие колёса и мощь. Может проходить в непроходимых местах, отлично ездит по скалистой местности и может перевозить длинные брёвна.",
+},
+{
+    name: "С-4320",
+    image: "non.jpg",
+    about: "⭐⭐⭐",
+    description: "Old Soviet 6x4 truck. Has a diff lock option. This is a good truck to '1 star' challanges.",
+},
+{
+    name: "С-",
+    image: "non.jpg",
+    about: "⭐⭐⭐",
     description: "Old Soviet 6x4 truck. Has a diff lock option. This is a good truck to '1 star' challanges.",
 }]
 
