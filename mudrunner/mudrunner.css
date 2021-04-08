@@ -73,9 +73,27 @@ body{
 .btn{
     background-color: whitesmoke;
     color: black;
-    outline: none;
+    outline: 0;
+    border: 0;
 }
 .btn:hover{
     background-color: rgb(39, 37, 37);
      color:whitesmoke;
+}
+.search-truck{
+    background-color: rgb(39, 37, 37);
+    color: whitesmoke;
+}
+.card-body{
+    background-color: rgb(39, 37, 37);
+    color: whitesmoke;
+}
+.about{
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+}
+h4{
+    text-align: center;
+    color:whitesmoke;
 }
