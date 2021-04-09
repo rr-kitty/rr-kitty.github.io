@@ -5,3 +5,14 @@ body{
 .container{
     background-color: rgb(31, 29, 29);
 }
+.image{
+    width: 1140px;
+    height: 700px;
+    border-radius: 100px;
+}
+.description{
+    margin: 20px;
+    margin-left: 18px;
+    text-align: center;
+    font-size: 18px;
+}
