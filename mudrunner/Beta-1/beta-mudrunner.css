@@ -97,10 +97,16 @@ h4{
     text-align: center;
     color:whitesmoke;
 }
-.preloader{
-    background-color: rgb(39, 37, 37);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    
+.my-modal{
+    position: fixed;
+    background-color: whitesmoke;
+    bottom: 0;
+    z-index: 6;
+    left: 0;
+    width: 100%;
+    max-height: 30%;
+    overflow: auto;
+    padding: 40px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    margin: 5px;
 }

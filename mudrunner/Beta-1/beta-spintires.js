@@ -42,7 +42,7 @@ let myfilm = {
             films: films,
             search: "",
             currentIndex: -1,
-            showPage: false,
+            showWindow: -1,
         }
     },
     methods: {
@@ -52,9 +52,12 @@ let myfilm = {
         modalHide() {
             this.currentIndex = -1;
         },
-        showAll(){
-setTimeout(()=>{this.showPage = true}, 1000)
+        showNewWindow(index) {
+            this.showWindow = index;
         },
+        hideNewWindow(index) {
+            this.showWindow = -1;
+         }
     },
     computed: {
         myFilter() {

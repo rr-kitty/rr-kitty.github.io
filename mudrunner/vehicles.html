@@ -13,37 +13,41 @@
 </head>
 
 <body>
-    <h1 class="zagolovok text-center">Mudrunner Vehicles List</h1>
-    <h4>Beta 1.1.3</h4>
-    <div class="container" id="film-app">
-        <div class="search">
-            <i class="fab fa-phabricator"></i>
-            <input v-model="search" type="text" placeholder="Введите номер модели" class="search-truck">
+    <div class="main" id="film-app">
+        <div class="preloader spinner-border text-light" v-if="showPage" role="status">
+            <span class="sr-only">Загрузка...</span>
         </div>
-        <ul class="film-list">
-            <li class="list-item" v-for="(item, index) in myFilter">
-                <div class="rel">
-                    <div class="card" v-on:mouseenter="modalShow(index)"
-                    v-on:mouseleave="modalHide"
-                    v-bind:class="{'active' : currentIndex == index}"
-                    v-bind:class="{'non-active': currentIndex != index}">
-                        <div class="poster">
-                            <img v-bind:src="item.image" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">{{item.name}}</h5>
-                            <p class="card-text">{{item.about}}</p>
-                            <a href="truck-1.html" target="_blank" class="btn btn-primary" v-bind:href="item.link">Перейти</a></a>
-                        </div>
-                        <div class="about" v-if="currentIndex == index">
-                            {{item.description}}
+        <div class="container" >
+            <h1 class="zagolovok text-center">Mudrunner Vehicles List</h1>
+            <h4>Beta 1.1.5</h4>
+            <div class="search">
+                <i class="fab fa-phabricator"></i>
+                <input v-model="search" type="text" placeholder="Введите номер модели" class="search-truck">
+            </div>
+            <ul class="film-list">
+                <li class="list-item" v-for="(item, index) in myFilter">
+                    <div class="rel">
+                        <div class="card" v-on:mouseenter="modalShow(index)" v-on:mouseleave="modalHide"
+                            v-bind:class="{'active' : currentIndex == index}"
+                            v-bind:class="{'non-active': currentIndex != index}">
+                            <div class="poster">
+                                <img v-bind:src="item.image" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{item.name}}</h5>
+                                <p class="card-text">{{item.about}}</p>
+                                <a href="truck-1.html" target="_blank" class="btn btn-primary"
+                                    v-bind:href="item.link">Перейти</a></a>
+                            </div>
+                            <div class="about" v-if="currentIndex == index">
+                                {{item.description}}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </li>
-        </ul>
+                </li>
+            </ul>
+        </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
